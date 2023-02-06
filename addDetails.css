@@ -1,0 +1,48 @@
+body{
+    display: flex;
+}
+#Adform{
+    width:50%;
+    height:100%;
+    position:relative;
+    display: row;
+  
+}
+.detail-cont{
+    margin:10%;
+    margin-left: 50%;
+   
+}
+input{
+    margin-left:10%;
+}
+h2{
+    margin-left: 50%;
+    text-align: center;
+}
+button{
+    margin-left: 60%;
+}
+#display{
+    width:50%;
+    height:100%;
+
+    display: inline-block;
+  
+}
+p:nth-child(2n+1){
+     background-color: lightgray;
+}
+p{
+    position: relative;
+    font-size: 1.3rem;
+    padding: 2%;
+    text-align: left;
+    padding-left: 0.5cm;
+    margin: 2px 2px;
+}
+b{
+    background-color: green;
+    color: honeydew;
+    font-weight: 500;
+}
